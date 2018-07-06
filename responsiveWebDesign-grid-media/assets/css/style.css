@@ -1,0 +1,39 @@
+.img{
+  width: 100%;
+}
+
+.titulo{
+  text-align: center;
+  padding: 5%;
+}
+
+.primera seccion{
+  text-align: justify;
+  padding: 5%;
+}
+
+@media (min-width: 200px) and (max-width: 424px){
+  [class*='col-']{
+    width: 100%;
+    text-align: center;
+  }
+
+.gatito{
+  content: url(../imagen/images.jpg);
+}
+
+body{
+  background-color: aquamarine;
+}
+}
+
+@media (min-width: 425) and (max-width: 768px){
+  [class*='col-']{
+    width: 100%;
+    text-align: center;
+  }
+
+  .gatito{
+    content: url(../imagen/eliminar-pis-de-gato.jpg);
+  }
+}
