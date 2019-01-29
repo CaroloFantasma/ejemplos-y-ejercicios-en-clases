@@ -28,7 +28,7 @@ boton.addEventListener("click", () => {
 
   // Crear ícono basura
   const trash =document.createElement("i");
-  trash.classList.add('fas', 'fa-trash', 'trash');
+  trash.classList.add('fa fa-trash', 'trash');
 
   // Nodos de texto del textarea
   let textNewComment = document.createTextNode(comments);
